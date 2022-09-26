@@ -1,22 +1,27 @@
+/* Universal selector, formats whole website */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element selector, styles the background color of the website */
 body {
     background-color: #d9dcd6;
 }
 
+/* Element selector, styles the links (anchors) of the website */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Element selector, styles the paragraphs of the website */
 p {
     font-size: 16px;
 }
 
+/* Class selector, styling the header elements */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +55,7 @@ p {
     margin-left: 25px;
 }
 
+/* Class selector, styling for the background image of the website */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,12 +75,14 @@ p {
     margin-left: 25px;
 }
 
+/* Class selector, styling for main elements */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class selector, styling for article elements */
 .content-article {
     margin-bottom: 20px;
     padding: 50px;
@@ -93,6 +101,7 @@ p {
     font-size: 36px;
 }
 
+/* Class selector, styling for aside element that contains other asides */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,6 +113,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Class selector, styling for aside elements */
 .benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
@@ -120,6 +130,7 @@ p {
     max-width: 150px;
 }
 
+/* Class selector, styling for the footer elements */
 .footer {
     padding: 30px;
     clear: both;
