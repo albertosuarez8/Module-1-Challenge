@@ -29,15 +29,18 @@ p {
     color: #ffffff;
 }
 
+/* Styles the headings contained within header class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Styles the seo class contained within the h1 element and header class */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styles the navigation links contained within header class */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,10 +49,12 @@ p {
     font-size: 20px;
 }
 
+/* Styles the unordered list contained within the nav element and header class */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Styles the listed items contained within the nav element, unordered list element, and header class */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -65,11 +70,13 @@ p {
     background-position: center;
 }
 
+/* Class selector, used to position images in the article element */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class selector, used to position images in the article element */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -92,10 +99,12 @@ p {
     color: #ffffff;
 }
 
+/* Styles the images contained within content-article class */
 .content-article img {
     max-height: 200px;
 }
 
+/* Styles the headings contained within content-article class */
 .content-article h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -119,11 +128,13 @@ p {
     color: #ffffff;
 }
 
+/* Styles the headings contained within benefit-item class */
 .benefit-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Styles the images contained within benefit-item class */
 .benefit-item img {
     display: block;
     margin: 10px auto;
@@ -138,6 +149,7 @@ p {
     text-align: center;
 }
 
+/* Styles the headings contained within footer class */
 .footer h2 {
     font-size: 20px;
 }
